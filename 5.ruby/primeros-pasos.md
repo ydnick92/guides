@@ -13,6 +13,7 @@ Si ves un mensaje diciendo que el comando no fue encontrado, significa que aún 
 
 Una vez que tengas instalado [Ruby](https://ruby-lang.org/) y lo hayas verificado, continúa. En las siguientes secciones vamos a ver cómo ejecutar código Ruby en el interpretador y desde un archivo.
 
+Aqui esta un video con a explicacion de los primeros pasos de [RUBY](https://www.youtube.com/watch?time_continue=32&v=EM_-swTHJnA) 
 ## IRB
 
 Existen dos formas de ejecutar código Ruby. La primera es abrir el interpretador de Ruby ejecutando el comando IRB.
@@ -113,4 +114,3 @@ Por ejemplo, las dos siguientes líneas son equivalentes:
 puts "Hola Mundo"
 print "Hola Mundo\n"
 ```
-
