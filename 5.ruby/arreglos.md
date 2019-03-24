@@ -1,5 +1,7 @@
 # Arreglos
 
+VIDEO DE ARREGLOS E ITERANDO ARREGLOS La url es [Arreglos en Ruby](https://www.youtube.com/watch?v=LH8FnTi0wQo).
+
 ## Arreglos
 
 Hasta ahora hemos trabajado con cadenas de texto, números y booleanos. En este capítulo vamos a hablar de un nuevo tipo de datos: los arreglos.
@@ -214,4 +216,3 @@ argumento3
 ```
 
 Es simplemente otra forma en la que puedes recibir información del usuario.
-

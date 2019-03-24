@@ -1,5 +1,7 @@
 # Hashes
 
+VIDEO DE HASHES Y COMO ITERAR SOBRE ELLOS Y COMO CREAR ARREGLOS CON LA LLAVE Y EL VALOR La url es [Hashes en Ruby](https://www.youtube.com/watch?v=yhnSuDhfJYY).
+
 El último tipo de datos que vamos a ver son los **hashes** \(no existe una buena traducción al español\). Un hash no es más que una colección de datos en donde cada valor está asociado a una llave. Imagina un diccionario, en donde las palabras son las llaves y las definiciones son los valores.
 
 Abramos IRB y creemos nuestro primer hash:
@@ -190,4 +192,3 @@ end
 ```
 
 Lo primero que estamos haciendo es iterando por el arreglo de productos. Por cada uno de los productos \(recuerda que esto es un hash\) vamos a mostrar el nombre \(la llave `:nombre`\), después el identificador \(la llave `:id`\), el precio \(la llave `:price`\) y las categorías \(la llave `:categories`\). Como las categorías están en un arreglo debemos utilizar el método `join` para convertirlas en una cadena.
-

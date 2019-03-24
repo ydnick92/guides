@@ -1,5 +1,7 @@
 # Más cadenas de texto
 
+VIDEO DE STRINGS, RECORRER STRINGS, OBTENER UN RANGO DEL STRING La url es [Strings en Ruby](https://www.youtube.com/watch?time_continue=1&v=0xKnLH2AcQU).
+
 Las cadenas de texto \(strings\) son uno de los tipos de datos más importantes en la programación. En muchas formas se comportan similar a los arreglos \(piensa en una cadena de texto como un arreglo de caracteres\), y a veces es útil convertir de cadenas de texto a arreglos y viceversa. En este capítulo veremos todas las cosas interesantes que podemos hacer con cadenas de texto.
 
 Empecemos creando un archivo llamado `strings.rb` y veamos primero como obtener la longitud de la cadena:
@@ -103,4 +105,3 @@ Sobre las cadenas de texto podemos llamar una gran cantidad de métodos y operad
 | `gsub` | Reemplaza las ocurrencias en el texto | `"Hola mundo".gsub("mundo", "Germán") # Hola Germán` |
 
 Prueba cada uno de los ejemplos en IRB. Puedes encontrar todos los métodos de las cadenas en la [documentación de Ruby](http://ruby-doc.org/core-2.3.1/String.html)
-

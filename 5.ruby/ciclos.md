@@ -1,5 +1,7 @@
 # Ciclos
 
+VIDEO DE ITERCIONES (while, until, times sobre cualquier número, each do para iterar rangos o arrays, y for para iterar rangos como el each do) La url es [Ciclos en Ruby](https://www.youtube.com/watch?v=1BWdBcdv-K8).
+
 Los ciclos nos permiten repetir la ejecución de un código varias veces.
 
 En Ruby existen varias formas de hacer ciclos. Veamos algunas:
@@ -35,4 +37,3 @@ end
 ```
 
 La forma de crear un rango es con dos o tres puntos seguidos \(`..` o `...`\) entre dos números. La diferencia es que los dos puntos \(`..`\) incluyen el último valor, los tres puntos \(`...`\) lo excluyen.
-

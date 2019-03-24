@@ -1,5 +1,8 @@
 # Condicionales
 
+VIDEO DE CONDICIONALES + UNLESS La url es [Condicionales en Ruby](https://www.youtube.com/watch?time_continue=33&v=aqQQpyczWPA).
+
+
 Los condicionales le permiten a nuestros programas tomar decisiones cuando se están ejecutando.
 
 Ruby ofrece varias formas para crear condicionales. La sintaxis más simple es la siguiente:
@@ -136,4 +139,3 @@ La **negación** es más simple:
 | --- | --- |
 | `!true` | `false` |
 | `!false` | `true` |
-

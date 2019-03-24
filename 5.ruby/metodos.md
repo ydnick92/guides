@@ -1,5 +1,8 @@
 # Métodos
 
+VIDEO DE FUNCIONES La url es [Metodos en Ruby](https://www.youtube.com/watch?v=rcDJjHTptXk).
+
+
 Los métodos, conocidos también como funciones o procedimientos en otros lenguajes, nos permiten reutilizar código.
 
 La sintaxis para crear un método en Ruby es la siguiente:
@@ -56,4 +59,3 @@ end
 puts hello("Germán")
 puts hello "David"
 ```
-
