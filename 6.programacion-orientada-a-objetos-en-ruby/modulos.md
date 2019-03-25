@@ -1,5 +1,8 @@
 # Módulos
 
+VIDEO Modulos en Ruby [LINK](https://blog.makeitreal.camp/modulos-en-ruby/).
+
+
 Los **módulos** en Ruby cumplen una doble función: evitan colisiones de nombres y nos ayudan a reutilizar código.
 
 Un **módulo** es un contenedor de clases, métodos y constantes. Los módulos se definen utilizando la palabra clave `module`.
