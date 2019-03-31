@@ -1,5 +1,7 @@
 # Primeros pasos con Sinatra
 
+URL Introducción a Sinatra[Cantando con Sinatra](https://code.tutsplus.com/tutorials/singing-with-sinatra--net-18965).
+
 Para instalar Sinatra:
 
 ```text
@@ -114,4 +116,3 @@ Y ahora podemos utilizar la variable `@name` en la vista:
 Para imprimir información en pantalla desde el código Ruby utilizamos el igual cuando abrimos la etiqueta `<%=` y `%>`.
 
 **Atención:** Si omites el `=` no va a aparecer nada en pantalla.
-

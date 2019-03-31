@@ -1,0 +1,26 @@
+<% #Se va a separar todo el codigo HTML que estamos incluyendo en nuestro archivo de Ruby a otro archivo diferente de modo que no mezclemos en el mismo archivo
+#lo cual puede generar problemas y hace el codigo menos legible y claro. Sinatra nos ayuda a hacer este tipo de cosas ya que como esta el codigo, sinatra siempre le responde al navegador
+#La ultima linea de la ruta.
+#cada vez que llega una peticion a la ruta el hace los condicionales del archivo rutas.rb  y devuelve la ultima linea que en el caso es el formulario que esta dentro del hurt doc, en este
+#hurt doc podemos incluir cualquier etiqueta html, sin embargo esta no es la forma correcta de hacerlo, es mejor separarlo del servidor
+
+#1. Para hacerlo se debe crear una carpeta views, ya que sinatra se va a buscar las vistas en esa carpeta %>
+<%# 2. Despues se debe crear una vista index.erb ... Un erb es un lenguaje de temp plein que viene incluido con ruby el cual basicamente nos deja crear archivos de html dentro de los cuales podemos inyectar codigo ruby, de forma que los podamos hacer mas dinamicos%>
+<%# 3. Lo que hago es mover todo el formulario del hurt doc para pegarlo en el index.erb %>
+<%# 4. Llamar el metodo de sinatra erb en el archivo app.rb y le voy a decir cual es la vista que quiero mostrar, en este caso es el index %>
+
+<%# Inyectar código Ruby <% %>
+
+<%# Mostrar código Ruby <%= %>
+<%# El <%=, una de la cosas que nos deja hacer sinatra es usar variables de instancia en nuestras rutas por lo cual en la ruta puedo crear una variable de instancia, la cual se representa con un @ antes de su nombre. %>
+
+
+<h2>♥ Mi primer grandioso proyecto de SINATRA ♥</h2>
+<form action= "/nuevo/objeto" method = "post">
+  <input type = "text" name = "verbo"></input>
+  <input type = "submit" value = "Estoy haciendo una petición POST"></input>
+</form>
+
+<% if @nombre %> <%# si la variable nombre existe, esta definida, no es igual a nil o no es igual a falso, muestre esa variable dentro de un h2, y el <%= va a ser que se imprima de nuestra pagina %>
+  <h2><%= @nombre %></h2> <%# sinatra nos deja definir variables de instancia, las cuales van a tener un valor y estas variables quedan disponibles en nuestros documentos erb dentro de los cuales puedo utilizar ruby  %>
+<% end %>
